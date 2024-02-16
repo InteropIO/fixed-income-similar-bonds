@@ -9,6 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/interopio/similar-bonds'
-
+  base: '/interopio/similar-bonds',
 });
