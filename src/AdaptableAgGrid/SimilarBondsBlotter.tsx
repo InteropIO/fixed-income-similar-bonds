@@ -40,6 +40,9 @@ export const SimilarBondsBlotter = () => {
       autogeneratePrimaryKey: true,
       userName: 'Test User',
       adaptableId: 'AdaptableFinsembleSimilarBonds',
+      filterOptions: {
+        clearFiltersOnStartUp: true,
+      },
       predefinedConfig: {
         Dashboard: {
           DashboardTitle: 'Similar Bonds',
