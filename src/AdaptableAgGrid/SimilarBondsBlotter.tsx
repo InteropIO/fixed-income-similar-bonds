@@ -113,9 +113,6 @@ export const SimilarBondsBlotter = () => {
             },
           };
           adaptableApi.filterApi.setColumnFilters([isinFilter]);
-        } else {
-          // TODO - investigate and remove
-          adaptableApi.filterApi.clearColumnFilters();
         }
       }
     });
