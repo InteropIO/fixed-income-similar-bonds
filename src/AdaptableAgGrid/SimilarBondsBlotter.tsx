@@ -39,7 +39,7 @@ export const SimilarBondsBlotter = () => {
       primaryKey: 'Id',
       autogeneratePrimaryKey: true,
       userName: 'Test User',
-      adaptableId: 'AdaptableFinsembleSimilarBonds',
+      adaptableId: 'AdaptableSimilarBonds',
       filterOptions: {
         clearFiltersOnStartUp: true,
       },
